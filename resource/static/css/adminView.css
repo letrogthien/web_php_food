@@ -1,0 +1,74 @@
+.bodyy{
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+.th, .td {
+    padding: 12px;
+    text-align: left;
+
+}
+
+.th {
+    background-color: #f2f2f2;
+}
+
+.img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+}
+.content-header{
+    display: flex;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+   
+}
+.aa{
+    height: 550px; 
+    overflow-y:auto;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  .search-box{
+    height: 40px;
+    margin-left: auto;
+  }
+
+  .table-container tbody tr span{
+    font-size: large;
+  }
+
+  .content-insert{
+    margin-top: 70px !important;
+  }
+  .add-product{
+    height: auto;
+    
+  }
+  .add-name{
+    margin-top: 40px;
+    display: flex;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .container{
+    width: 500px;
+  }
+  .deleteFile{
+    margin-right: 30px;
+  }
+
+

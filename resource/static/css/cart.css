@@ -1,0 +1,197 @@
+ /* CSS tùy chỉnh */
+ body {
+    font-family: Arial, sans-serif;
+}
+
+.offcanvas {
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 350px;
+    height: 100%;
+    background-color: #402f2f;
+    transition: left 0.3s ease;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.offcanvas.active {
+    left: 0;
+}
+
+.offcanvas .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.offcanvas .dropdown {
+    margin-top: 20px;
+}
+
+.offcanvas .dropdown .dropdown-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.offcanvas .dropdown.active .dropdown-menu {
+    display: block;
+}
+
+#cart_icon{
+    position: absolute;
+    width: 36px;
+    left: 20%px;
+    margin-top: -20px;
+}
+
+.button-cart{
+    position: relative;
+    display: inline-block;
+    width: 48px !important;
+    height: 38px;
+    margin-left: 200px;
+    padding-left: 0;
+    padding-right: 33px;
+    margin-top: 8px;
+}
+
+.close-btn{
+    color: rgb(255, 255, 255);
+}
+
+.btn_primary span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(84, 167, 97);
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.offcanvas .title{
+    position: absolute;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.offcanvas .list_cart{
+    margin-top: 50px;
+    overflow-y: auto;
+    height: 66vh !important; 
+    padding-bottom: 50px;
+}
+
+.offcanvas .list_cart .cart_item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    position: relative; 
+    border-bottom: 2px solid #ffffffc6;
+}
+
+.offcanvas .list_cart .cart_item:hover{
+    background-color: #5d4747;
+}
+
+.offcanvas .list_cart .cart_item img{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.cart_item .quantity {
+    margin-right: 10px; /* Khoảng cách giữa quantity và totalPrice */
+}
+
+.cart_item .clear_item {
+    margin-left: 130px;
+    margin-top: -80px; /* Đẩy phần tử này về bên phải cùng */
+    cursor: pointer;
+}
+
+.cart_item .clear_item:hover {
+    color: red; /* Màu chữ thay đổi khi di chuột qua */
+}
+
+.cart_item .mid_quan_pri {
+    position: absolute;
+    bottom: 20px;
+    left: 145px;
+    display: flex;
+}
+
+.checkout {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ffffffc6 ;
+    padding-top: 12px;
+    background-color: #402f2f;
+    top: 80vh;
+    width: 100%;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+}
+
+.total p {
+    margin-left: 10px;  
+}
+.total .sub_total{
+    margin-left: 180px;
+}
+
+.btn_payment {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_payment button{
+    margin: 0 2px;
+    width: 160px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgb(98, 92, 61);
+    color: #a5e2c3;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.titlee{
+    justify-content: center;
+    text-align: center;
+    padding: 5px 60px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

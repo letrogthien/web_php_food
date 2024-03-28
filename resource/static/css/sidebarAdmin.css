@@ -1,0 +1,76 @@
+.sidebar-container{
+    width: 400px; 
+    height: 130vh;
+    
+
+}
+.sidebar-ul{
+    list-style-type: none;
+}
+.fw-semibold{
+    font-size: 35px !important;
+    margin-top: 20px;
+    color: bisque;
+  
+    margin-left: 20px;
+}
+.product-mn{
+
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(204, 206, 208);
+    
+    margin-top: 10px;
+}
+
+.collapse-product{
+    margin-left: 25px;
+}
+.collapse-product ul li{
+    list-style-type: none;
+}
+
+ .collapse-user{
+     margin-left: 25px;
+    
+    
+ }
+ .collapse-user ul li{
+     list-style-type: none;
+     
+     
+ }
+ .collapse-user ul li a {
+    text-decoration: none !important; 
+ }
+ .collapse-bill ul li a{
+    text-decoration: none !important; 
+ }
+ .collapse-product ul li a{
+    text-decoration: none !important; 
+ }
+ .collapse-bill{
+    margin-left: 25px;
+}
+.collapse-bill ul li{
+    list-style-type: none;
+}
+.account-collapse ul li a{
+    text-decoration: none !important; 
+}
+ .row {
+    margin-top: 20px;
+ }
+ .btn {
+    background-color: dark;
+    border: none;
+ }
+ .btn:hover {
+    background-color: rgb(96, 96, 96);
+ }
+ .account-collapse{
+    margin-left: 25px;
+ }
+ .account-collapse ul li{
+    list-style-type: none;
+ }
